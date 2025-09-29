@@ -1,0 +1,19 @@
+name: prospero_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - numpy=1.26.4
+  - tqdm
+  - scikit-learn
+  - pytorch=2.5.0
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - tape-proteins
+      - evodiff
+      - gdown
+      - transformers
+      - accelerate
